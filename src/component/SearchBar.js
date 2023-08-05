@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import RoboList from "./RoboList";
 
-const SearchBar = () => {
-  const [enterValue, setEnterValue] = useState("");
-
+const SearchBar = ({ enterValue, setEnterValue }) => {
   const handleChange = (event) => {
     const newValue = event.target.value;
     setEnterValue(newValue);
@@ -19,7 +16,6 @@ const SearchBar = () => {
           onChange={handleChange}
         ></input>
       </form>
-      <RoboList enterValue={enterValue}></RoboList>
     </div>
   );
 };

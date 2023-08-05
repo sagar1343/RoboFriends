@@ -1,5 +1,5 @@
 import "./App.css";
-import SearchBar from "./component/SearchBar";
+import RoboList from "./component/RoboList";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="head">
         <h1 className="mainHead">Robo Friends</h1>
       </div>
-      <SearchBar />
+      <RoboList />
     </div>
   );
 }
