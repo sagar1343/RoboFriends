@@ -11,7 +11,7 @@ const RoboList = () => {
   useEffect(() => {
     axios.get("https://jsonplaceholder.typicode.com/users").then((response) => {
       setUsers(response.data);
-      console.log(users);
+      console.log(response.data);
     });
   }, []);
 

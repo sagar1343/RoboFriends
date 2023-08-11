@@ -8,14 +8,12 @@ const SearchBar = ({ enterValue, setEnterValue }) => {
 
   return (
     <div>
-      <form>
-        <input
-          type="text"
-          value={enterValue}
-          placeholder="Search name here ..."
-          onChange={handleChange}
-        ></input>
-      </form>
+      <input
+        type="text"
+        value={enterValue}
+        placeholder="Search name here ..."
+        onChange={handleChange}
+      ></input>
     </div>
   );
 };

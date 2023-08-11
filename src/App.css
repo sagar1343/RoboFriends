@@ -15,5 +15,5 @@ p.userName {
   font-size: large;
 }
 .robot:hover {
-  zoom: 1.02;
+  transform: scale(1.2);
 }
